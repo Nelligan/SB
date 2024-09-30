@@ -5,7 +5,7 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 // Lazy loading components for code splitting
 const BotList = lazy(() => import('./pages/BotList'));
 const Workers = lazy(() => import('./pages/Workers'));
-const Logs = lazy(() => import('./pages/Logs'));
+const Logs = lazy(() => import('./pages/LogsForBot'));
 
 const App = () => {
   return (
