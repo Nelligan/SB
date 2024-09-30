@@ -11,7 +11,7 @@ describe('e2e test', () => {
   });
 
   it('e2e test', () => {
-    // Check that the title is rendered
+    // Check that the title
     cy.get('[data-testid="Bot List"]').should('contain', 'Bot List');
 
     // Verify the table renders and contains bot data
